@@ -1,0 +1,40 @@
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color:rgb(38, 39, 41)
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    background-color: silver;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(47, 51, 71);
+}
+
+nav a.selected {
+    font-weight: 900;
+    font-size: 1.2rem;
+    color:rgb(92, 21, 9)
+}
+
+.pic {
+    padding: 5rem;
+    display: flex;
+}
+
+ul {
+    color: silver;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+ul a {
+    color: silver;
+}
+
+li {
+    padding: 1rem;
+}
